@@ -23,18 +23,18 @@ function Trends() {
     const [selectedTab, setSelectedTab] = useState('scores')
 
     useEffect(() => {
-        fetch('${import.meta.env.VITE_API_URL}/api/scores')
+        fetch(`${import.meta.env.VITE_API_URL}/api/scores`)
             .then((res) => res.json())
             .then(setInterestScores)
-        fetch('${import.meta.env.VITE_API_URL}/api/trending')
+        fetch(`${import.meta.env.VITE_API_URL}/api/trending`)
             .then((res) => res.json())
             .then(setTrending)
 
-        fetch('${import.meta.env.VITE_API_URL}/api/pages')
+        fetch(`${import.meta.env.VITE_API_URL}/api/pages`)
             .then((res) => res.json())
             .then(setPages)
 
-        fetch('${import.meta.env.VITE_API_URL}/api/last-visitors')
+        fetch(`${import.meta.env.VITE_API_URL}/api/last-visitors`)
             .then((res) => res.json())
             .then(setVisitors)
     }, [])

@@ -25,7 +25,7 @@ function AccountTable() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("${import.meta.env.VITE_API_URL}/api/accounts")
+    fetch(`${import.meta.env.VITE_API_URL}/api/accounts`)
       .then((res) => res.json())
       .then((data) => setAccounts(data))
       .catch((err) => console.error(err));
