@@ -6,7 +6,7 @@ An analytics dashboard built for sales representatives to gain insight into webs
 
 [Live Site]
 
-**Note**: Not including a run locally in README since there is a live link
+**Note**: Did not include run locally instructions in README since live link is provided
 
 
 ## Project Structure
