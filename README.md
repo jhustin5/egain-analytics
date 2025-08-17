@@ -6,6 +6,8 @@ An analytics dashboard built for sales representatives to gain insight into webs
 
 [Live Site]
 
+**Backend**: Hosted on Render (Noted that "Your free instance will spin down with inactivity, which can delay requests by 50 seconds or more.")
+
 **Note**: Did not include run locally instructions in README since live link is provided
 
 
@@ -15,7 +17,6 @@ An analytics dashboard built for sales representatives to gain insight into webs
 egain-analytics/
 ├── frontend/
 ├── backend/
-├── visitors.json
 └── README.md
 ```
 
