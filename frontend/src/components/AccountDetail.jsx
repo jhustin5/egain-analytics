@@ -9,7 +9,7 @@ function AccountDetail() {
   const [selectedTab, setSelectedTab] = useState('top_pages')
 
   useEffect(() => {
-    fetch(`/api/account/${domain}`)
+    fetch(`${import.meta.env.VITE_API_URL}/api/account/${domain}`)
       .then(res => res.json())
       .then(setAccount)
       .catch(err => {

@@ -25,7 +25,7 @@ function WebLogs() {
     const rowsPerPage = 5;
 
     useEffect(() => {
-        fetch("http://localhost:8000/api/search")
+        fetch("${import.meta.env.VITE_API_URL}/api/search")
             .then((res) => res.json())
             .then((data) => {
                 setLogs(data);
