@@ -29,7 +29,7 @@ egain-analytics/
 ## Features
 
 - **Account Summary**  
-  General summary of company visits and search tool for more detailed trends for a specific domain
+  General summary of company visits; includes search tool to look up a company in greater detail with visualization tools.
 
 - **Web Logs**  
   Web logs with filters for company, country, and visited page.
