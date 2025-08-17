@@ -6,7 +6,8 @@ from typing import Optional
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
-VISITOR_DATA = json.loads(Path("backend/visitors.json").read_text())
+VISITOR_DATA = json.loads((Path(__file__).resolve().parent.parent.parent / "visitors.json").read_text())
+
 
 app = FastAPI()
 
