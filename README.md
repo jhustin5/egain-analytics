@@ -6,9 +6,9 @@ An analytics dashboard built for sales representatives to gain insight into webs
 
 [Live Site] https://egain-analytics.vercel.app/
 
-**Backend**: Hosted on Render
+**Backend**: Deployed through Render
 
-**Frontend**: Hosted on Vercel
+**Frontend**: Deployed through Vercel
 
 ## Project Structure
 
