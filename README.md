@@ -38,7 +38,7 @@ egain-analytics/
   Visual graphs and tables highlighting interest scores, top companies, countries, and visited pages.
 
 
-### API Endpoints
+## API Endpoints
 
 Included postman collection in backend
 
