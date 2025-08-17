@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "a49a97f6-b760-4ab8-b8d7-039287421471",
+		"name": "EGain API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45707733",
+		"_collection_link": "https://justinhu-9236915.postman.co/workspace/Justin-Hu's-Workspace~334b2bf0-1c63-4a4f-8a1a-6663e13a7a1f/collection/45707733-a49a97f6-b760-4ab8-b8d7-039287421471?action=share&source=collection_link&creator=45707733"
+	},
+	"item": [
+		{
+			"name": "all companies",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logs by filter",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/search?country=usa&company=adobe&page=features",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "usa"
+						},
+						{
+							"key": "company",
+							"value": "adobe"
+						},
+						{
+							"key": "page",
+							"value": "features"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "company detail by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/account/adobe.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"account",
+						"adobe.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "trending countries and companies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/trending",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"trending"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "most visited pages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/pages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "highest interest scores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/scores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"scores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
