@@ -11,11 +11,13 @@ Note: Not including a run locally in README since there is a live link
 
 ## Project Structure
 
+```
 egain-analytics/
 ├── frontend/
 ├── backend/
 ├── visitors.json
 └── README.md
+```
 
 ## Tech Stack
 
