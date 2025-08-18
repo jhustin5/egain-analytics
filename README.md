@@ -26,16 +26,30 @@ egain-analytics/
 - **Data Source**: Local JSON file (mock database)
 
 
-## Features
+### Features and Navigation
 
-- **Account Summary**  
-  General summary of company visits; includes search tool to look up a company in greater detail with visualization tools.
+- **Account Summaries (Landing Page)**  
+  View a paginated table of all companies. Each row shows the company name, domain, total visits, last seen timestamp, and country. A **search bar** at the top lets you look up a company directly by its domain. Clicking a company opens its detailed account view.
+
+- **Account Details**  
+  See a full breakdown of one company’s activity. Includes domain, country, total visits, last seen, and calculated interest score. Below are tabs with visualizations:  
+  - **Top Pages**: Most visited pages for the company.  
+  - **Daily Activity**: Visit counts over time.  
+  - **Recent Visits**: Table of the most recent interactions.
 
 - **Web Logs**  
-  Web logs with filters for company, country, and visited page.
+  Explore raw visitor logs with pagination. Includes filter boxes for **company**, **country**, and **page** to quickly drill into specific activity.
 
 - **Trends**  
-  Visual graphs and tables highlighting interest scores, top companies, countries, and visited pages.
+  View global analytics across all companies with graphs and tables:  
+  - **Interest Scores**: Companies ranked by engagement.  
+  - **Trending Companies**: Most active companies in the dataset.  
+  - **Trending Countries**: Geographic distribution of visits.  
+  - **Most Visited Pages**: Popular website sections overall.
+
+- **Navigation Bar**  
+  A persistent top menu links directly to **Account Summaries**, **Web Logs**, and **Trends** for quick access.
+
 
 
 ## API Endpoints
