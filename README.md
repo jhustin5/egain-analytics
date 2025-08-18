@@ -29,7 +29,7 @@ An analytics dashboard built for sales representatives to gain insight into webs
 - **Frontend**: React (Vite)
 - **Backend**: FastAPI (Python)
 - **Data Source**: Local JSON file (mock database)
-- **Deployemnt**: Render (backend) and Vercel (frontend)
+- **Deployment**: Render (backend) and Vercel (frontend)
 
 ### Features and Navigation
 
