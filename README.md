@@ -13,9 +13,18 @@ An analytics dashboard built for sales representatives to gain insight into webs
 ## Project Structure
 
 ```
-egain-analytics/
-├── frontend/
 ├── backend/
+│   ├── app/
+│   ├── postman-collection/
+│   ├── requirements.txt
+│   ├── visitors.json 
+│   └── ...        
+├── frontend/
+│   ├── src/
+│   ├── vite.config.js
+│   ├── vercel.json           
+│   └── ...
+├── render.yaml
 └── README.md
 ```
 
